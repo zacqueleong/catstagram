@@ -27,7 +27,7 @@ function loadCat(responseData) {
         const elImg = document.createElement('img');
         const catImageURL = `https://cdn2.thecatapi.com/images/${cat.reference_image_id}.jpg`;
         elImg.setAttribute('src', catImageURL);
-        const errLogic = `this.onerror=null; this.src='./assets/missingcat.png'`
+        const errLogic = `this.onerror=null; this.src='./assets/missingcat2.png'`
         elImg.setAttribute('onerror', errLogic);
 
         // Append img element as child to id card__image
